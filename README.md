@@ -160,8 +160,8 @@ The script generates a Robot Framework project typically structured like this (b
 
 The script uses a predefined list `IGNORE_PATTERNS` (lines 13-55 in `code2test.py`) to avoid analyzing irrelevant files or directories (like `node_modules`, `.git`, build outputs, the script itself, log files, etc.). It also automatically ignores the specified `--output` directory to prevent analyzing previously generated tests. The `should_ignore` function uses `fnmatch` for pattern matching against both file/directory base names and individual path components.
 
-#1st approach(code2testt)
+# 1st approach(code2testt)
 ![1st approach(code2testt)](1.png)
 
-#2nd approach(code2test)
+# 2nd approach(code2test)
 ![2nd approach(code2test)](2.png)
